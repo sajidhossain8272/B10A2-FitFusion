@@ -7,13 +7,14 @@
     font-variation-settings:"slnt" 0;
 }
 
-@import url('https://fonts.cdnfonts.com/css/miama');
-.miama-font {
-    font-family: 'Miama', sans-serif;
-    font-optical-sizing: auto;
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Great+Vibes&display=swap');
+.cursive-font {
+    font-family: "Cedarville Cursive", cursive;
     font-weight: 400;
-    font-style: normal;
-}
+    font-style: italic;
+    font-size: 78px
+  }
+  
 
 * {
     padding: 0;
@@ -31,6 +32,9 @@
 }
 .placeholder-color {
     color: rgba(255, 255, 255, 0.6);
+}
+.display-flex{
+    display: flex;
 }
 
 /* Shared-Font-styles */
@@ -63,13 +67,76 @@
 
 }
 
+.banner-tittle-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 78px;
+    font-variation-settings:"slnt" 0;
+    line-height: 120%;
+
+}
+
+.description-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    font-variation-settings:"slnt" 0;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+
+}
+
+.primary-btn {
+    background-color: #E6533C;
+    border: 2px solid transparent;
+    border-radius: 46px;
+    padding: 8px 20px;
+    
+}
+
+.primary-btn-font {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 22px;
+        font-variation-settings:"slnt" 0;
+        color: #FFFFFF;
+    
+}
+
+.secondary-btn {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 46px;
+    padding: 8px 20px;
+    margin: 14px;
+}
+
+.secondary-btn-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    font-variation-settings:"slnt" 0;
+    color: #FFFFFF;
+}
+/* BG Styles */
+.bg-dark {
+    background: radial-gradient(circle at center, #333333 0%, #111111 80%);
+}
 /* nav styles */
 nav {
-    background: radial-gradient(circle at center, #333333 0%, #111111 80%);
     padding: 20px;
     display: flex;
     justify-content: space-around;
 }
+
 
 nav ul {
     list-style: none;
@@ -113,11 +180,42 @@ nav > h3, ul {
     margin-right: 190px;
 }
 
+.nav-tittle {
+    margin-left: 190px;
+}
+
+.nav-items {
+    margin-left: 705px;
+}
+
 .hamburger-btn{
     display: none;
 
 }
 
+/* Banner styles */
+.navbar .banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.banner-container {
+    background-image: url(../assets/Images\ 2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 715px;
+    margin-right: 214px;
+
+}
+
+.banner-content {
+    margin-left: 200px;
+    margin-top: 97.5px;
+}
+
+
+/* navbar responsive styles */
 @media screen and (max-width:576px) { 
      .navbar > ul{
         display: none;
@@ -129,7 +227,5 @@ nav > h3, ul {
         display: flex;
         align-items: center;
         margin-top: 50px;
-        
-        
     }
 }
