@@ -215,6 +215,7 @@ nav > h3, ul {
 }
 
 
+
 /* navbar responsive styles */
 @media screen and (max-width:576px) { 
      .navbar > ul{
@@ -228,4 +229,54 @@ nav > h3, ul {
         align-items: center;
         margin-top: 50px;
     }
+    .banner-container {
+        display: grid;
+        grid-template-rows:repeat(1, 1fr) ;
+        background-image: none;
+        height: auto;
+
+    }
+    .banner-content {
+        margin: 20px;
+        margin-left: 40px;
+
+    }
+    .join-btn {
+        display: none;
+    }
+
+    .banner-btn-container {
+        display: grid;
+        grid-template-columns: repeat(2, 190px);
+    }
+    .join-btn2  {
+        height: 54px;
+        width: 169px;
+    }
+    .download-btn  {
+        display: none
+    }
+    .download-btn2 {
+        height: 54px;
+        width: 169px;
+        margin-top: 0;
+    }
+    .banner-tittle-font, .cursive {
+        font-size: 36px;
+    }
+    .banner-content > p > br {
+        display: none;
+    }
+   
 }
+
+/* Button remove on larger device */
+@media screen and (min-width:577px) and (max-width:1000000px) {
+    .join-btn2, .download-btn2, .responsive-bg {
+        display: none;
+    }
+    
+}
+
+
+
