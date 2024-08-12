@@ -18,12 +18,10 @@
 * {
   padding: 0;
   margin: 0;
-  
 }
 
 html {
   overflow-x: hidden;
-
 }
 /* Shared Styles */
 .primary-color {
@@ -178,17 +176,17 @@ ul {
 }
 
 .nav-tittle {
-  margin-left: 190px;
+  margin-left: 11.875;
 }
 
 .nav-items {
-  margin-left: 705px;
+  margin-left: 44.063;
 }
 
 /* Banner styles */
 .navbar .banner {
- max-width: 100%;
- height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .banner-container {
@@ -239,11 +237,10 @@ ul {
 
 /* responsive styles small devices*/
 @media screen and (max-width: 576px) {
-
   .banner-content {
     margin: 0;
   }
-  
+
   .navbar > ul {
     display: none;
   }
@@ -254,7 +251,7 @@ ul {
     background-image: none;
     height: auto;
   }
- 
+
   .join-btn {
     display: none;
   }
@@ -284,12 +281,11 @@ ul {
     display: none;
   }
   .name-font {
-    font-size: 24px;
+    font-size: 36px;
   }
   .banner-paragraph {
     width: 100%;
     height: auto;
-    
   }
   .join-btn2,
   .download-btn2,
@@ -299,10 +295,25 @@ ul {
 
   .navbar {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: 0 75;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    padding: 0 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    padding: 0 15px;
   }
+  .nav-tittle {
+    margin-left: 0;
+    font-size: 30px;
+    flex-grow: 1;
+    text-align: left;
+  }
+
   .hamburger-button {
     background-color: transparent;
     color: white;
@@ -312,8 +323,21 @@ ul {
     display: flex;
     align-items: center;
     margin-top: 50px;
+    flex-grow: 1;
+    margin-left: auto;
+  }
+
+  .banner-tittle,
+  .banner-paragraph,
+  .banner-btn-container {
+    padding-left: 15px;
+  }
+  .primary-btn-font,
+  .secondary-btn-font,
+  .description-font {
+    font-size: 18px;
+  }
+  .banner-paragraph {
+    max-width: 81%;
   }
 }
-
-
-
