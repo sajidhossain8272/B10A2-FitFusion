@@ -127,6 +127,10 @@ html {
 .bg-dark {
   background: radial-gradient(circle at center, #333333 0%, #111111 80%);
 }
+
+.habits {
+  background-color: black;
+}
 /* nav styles */
 nav {
   padding: 20px;
@@ -278,7 +282,29 @@ ul {
 
 }
 
+/* Habits Section */
+.habitstittle {
+  text-align: center;
+  padding-top: 100px;
 
+}
+
+.habitfont{
+  font-size: 48px;
+}
+
+.habitimg {
+  border-radius: 180px;
+}
+
+.fourhabit {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 100px;
+  text-align: center;
+  line-height: 1.25;
+}
 
 
 /* Button remove on larger device */
@@ -438,5 +464,20 @@ ul {
 
   .cardcontainer {
     margin-top: -10vh;  
+  }
+
+  /* Habit section */
+  .habitdescription {
+    width: 75%;
+    margin-left: 3.125rem;
+    
+  }
+
+  .fourhabit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
   }
 }
