@@ -436,5 +436,7 @@ ul {
 
   }
 
-  
+  .cardcontainer {
+    margin-top: -10vh;  
+  }
 }
