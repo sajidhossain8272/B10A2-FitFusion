@@ -340,4 +340,7 @@ ul {
   .banner-paragraph {
     max-width: 81%;
   }
+  .banner-tittle {
+    padding-top: 3.188rem;
+  }
 }
