@@ -176,11 +176,11 @@ ul {
 }
 
 .nav-tittle {
-  margin-left: 11.875;
+  margin-left: 11.875vh;
 }
 
 .nav-items {
-  margin-left: 44.063;
+  margin-left: 44.063vh;
 }
 
 /* Banner styles */
@@ -202,6 +202,84 @@ ul {
   margin-left: 200px;
   margin-top: 97.5px;
 }
+
+/* Card Designs Here */
+
+.card1 {
+  text-align: start;
+  width: max-content;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 20px 30px;
+  position: relative;
+  top: -25vh;
+  left: 80vh;
+}
+
+.card2 {
+  text-align: start;
+  width: max-content;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 20px 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  position: relative;
+  left: 40vh;
+  top: -10vh;
+
+  
+}
+
+
+.redcircle {
+  background-color: #e6533c;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-right: 10px;
+
+  
+}
+
+.card1tittle {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 40px;
+  font-variation-settings: "slnt" 0;
+  line-height: 120%;
+  color: #ffffff;
+  margin: 0;
+
+}
+
+.card1description {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  font-variation-settings: "slnt" 0;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0;
+
+}
+
+
+
 
 /* Button remove on larger device */
 @media screen and (max-width: 1920px) {
@@ -343,4 +421,20 @@ ul {
   .banner-tittle {
     padding-top: 3.188rem;
   }
+
+  .card1 {
+    position: relative;
+    top: 17vh;
+    left: 10vh;
+  }
+
+  .card2 {
+    position: relative;
+    top: 34vh;
+    left: -7vh;
+    padding: 15px;
+
+  }
+
+  
 }
