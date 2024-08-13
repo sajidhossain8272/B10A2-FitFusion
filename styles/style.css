@@ -131,6 +131,15 @@ html {
 .habits {
   background-color: black;
 }
+
+.calltoaction {
+  background-color: black;
+  padding-top: 10vh;
+}
+
+
+
+
 /* nav styles */
 nav {
   padding: 20px;
@@ -304,6 +313,31 @@ ul {
   gap: 100px;
   text-align: center;
   line-height: 1.25;
+}
+
+/* CTA Section */
+.ctacontainer {
+  background-color: #333333;
+  height: 371px;
+  width: 80%;
+  border-radius: 15px;
+  display: flex;
+  position: relative;
+  left: 20vh;
+}
+
+.ctaimg {
+  height: 80%;
+  border-radius: 2vh;
+  position: relative;
+  top: 5vh;
+  left: 50vh;
+    
+}
+
+.ctatextcontainer {
+  padding-top: 9vh;
+  padding-left: 9vh;
 }
 
 
@@ -480,4 +514,52 @@ ul {
     align-items: center;
     gap: 40px;
   }
+
+  /* CTA Section */
+  .ctacontainer {
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 2vh;
+    position: relative;
+    left: 2.5vh;
+  }
+
+  .ctaimg {
+    height: auto;
+    width: 100%;
+    border-radius: 2vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 1,25rem;
+  }
+
+  .ctatextcontainer {
+    padding: 20px;
+    padding-top: 1,25rem;
+    text-align: start;
+  }
+
+  .ctafontm {
+    font-size: 32px;
+    font-size: bolder;
+  }
+
+  .ctatextcontainer p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .ctabtnm {
+    width: 287px;
+  }
+  .ctades {
+    width: 90%;
+    text-align: flex;
+    margin-left: 0rem;
+    
+  }
+  
 }
