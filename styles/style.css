@@ -163,6 +163,20 @@ html {
   background-color: #222222;
 }
 
+.meetteam {
+  background-color: black;
+  padding-top: 88px;
+  padding-bottom: 5vh;
+}
+.teamimgsection {
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 604px;
+  width: 1080px;
+  position: relative;
+  left: 50vh;
+  border-radius: 2vh;
+}
+
 
 
 
@@ -436,6 +450,62 @@ bmi form */
   padding-top: 20px;
 }
 
+/* Team section */
+.teamtextcontainer {
+  text-align: center;
+  padding-bottom: 58px;
+}
+
+.teamimgsection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.trainer {
+  position: relative;
+  display: inline-block;
+}
+
+.trainer img {
+  height: 272px;
+  width: 326.67px;
+  border-radius: 2vh;
+  padding: 2px;
+  display: block;
+}
+
+.trainer-name {
+  position: absolute;
+  bottom: 40px; 
+  left: 30%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 90%; 
+}
+
+.trainer-designation {
+  position: absolute;
+  bottom: 20px; 
+  left: 25%;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 300;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 90%; 
+
+}
+
 
 
 
@@ -445,6 +515,10 @@ bmi form */
   .download-btn2,
   .responsive-bg,
   .hamburger-button {
+    display: none;
+  }
+
+  .teamonlymobile {
     display: none;
   }
 }
@@ -702,5 +776,34 @@ bmi form */
     .bmiformhead {
       width: 100%;
     }
+
+
+    /* Team section */
+      .teamimgsection {
+        display: none;
+      }
+      .teamonlymobile {
+        background-color: black;
+        padding-bottom: 5vh;
+
+      }
+      .trainer {
+        left: 1.3vh;
+        top: 1.5vh;
+      }
+
+      .teamimgm {
+       background-color:rgba(255, 255, 255, 0.1)	;      ;
+       height: 188.5vh;
+       width: 353px;
+       position: relative;
+       left: 4.4vh;
+       border-radius: 2vh;
+       
+
+      
   }
 
+ 
+ 
+}
