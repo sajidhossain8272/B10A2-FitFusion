@@ -96,7 +96,7 @@
         </section>
 
         <section class="calltoaction"> 
-            <div class="ctacontainer"> 
+            <div class="ctacontainer ctacontainer1"> 
                 <div class="ctatextcontainer"> 
                 <h1 class="habitfont banner-tittle-font secondary-color">Run an Extra <br> 
                     Mile Easily</h1> <br>
@@ -107,6 +107,71 @@
                 </div>
                     <img class="ctaimg" src="assets/run.jpg" alt="Man Running in the Desert">
             </div>
+        </section>
+
+        <section class="bmicalculator">
+            <div class="bmichart">
+                <h1 class="bmifont banner-tittle-font secondary-color">BMI Calculator Chart</h1>
+                <table class="bmitable">
+                    <thead>
+                      <tr>
+                        <th class="bmitittlefont">BMI</th>
+                        <th class="bmitittlefont">Weight Status</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="bmichartfont">Below 18.5</td>
+                        <td class="bmichartfont">Underweight</td>
+                      </tr>
+                      <tr>
+                        <td class="bmichartfont">18.5 - 24.9</td>
+                        <td class="bmichartfont">Healthy</td>
+                      </tr>
+                      <tr>
+                        <td class="bmichartfont">25.0 - 29.9</td>
+                        <td class="bmichartfont">Overweight</td>
+                      </tr>
+                      <tr>
+                        <td class="bmichartfont">30.0 - and Above</td>
+                        <td class="bmichartfont">Obese</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+
+            <div class="bmiformhead">
+                <h1 class="secondary-color primary-btn-font ">Calculate your BMI</h1>
+                <p class="description-color description-font">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+           
+            <form class="bmiform">
+                <div class="form-row">
+                  <input type="text" placeholder="Height/cm" class="form-input">
+                  <input type="text" placeholder="Weight/kg" class="form-input">
+                </div>
+                <div class="form-row">
+                  <input type="text" placeholder="Age" class="form-input">
+                  <select class="form-input">
+                    <option value="" disabled selected>Sex</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </div>
+                <div class="form-row">
+                  <select class="form-input">
+                    <option value="" disabled selected>Select an activity factor</option>
+                    <option value="sedentary">Sedentary</option>
+                    <option value="light">Lightly Active</option>
+                    <option value="moderate">Moderately Active</option>
+                    <option value="very">Very Active</option>
+                    <option value="extra">Extra Active</option>
+                  </select>
+                </div> <br>
+                <button type="submit" class="primary-btn primary-btn-font calculate-btn">Calculate</button>
+              </form>
+
+            </div>
+           
 
 
         </section>

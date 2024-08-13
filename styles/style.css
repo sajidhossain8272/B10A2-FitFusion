@@ -123,6 +123,27 @@ html {
   font-variation-settings: "slnt" 0;
   color: #ffffff;
 }
+
+.bmifont {
+  font-size: 28px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  padding-bottom: 52px;
+}
+.bmitittlefont{
+  font-size: 18px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  
+}
+.bmichartfont {
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 50%;
+  font-style: normal;
+  font-weight: 200;
+}
 /* BG Styles */
 .bg-dark {
   background: radial-gradient(circle at center, #333333 0%, #111111 80%);
@@ -135,6 +156,11 @@ html {
 .calltoaction {
   background-color: black;
   padding-top: 10vh;
+  padding-bottom: 88px;
+}
+
+.bmicalculator {
+  background-color: #222222;
 }
 
 
@@ -324,6 +350,7 @@ ul {
   display: flex;
   position: relative;
   left: 20vh;
+
 }
 
 .ctaimg {
@@ -336,9 +363,80 @@ ul {
 }
 
 .ctatextcontainer {
-  padding-top: 9vh;
+  padding-top: 6vh;
   padding-left: 9vh;
 }
+
+
+/* BMI Calculator section */
+.bmichart {
+  padding-top: 52px;
+  padding-left: 187px;
+  width: 45%;
+  border-collapse: collapse;
+
+}
+
+
+.bmitable th,
+.bmitable td {
+  padding: 10px 25px;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Thicker border for Excel-like appearance */
+}
+/* 
+bmi form */
+
+.bmicalculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: rgba(34, 34, 34, 1);
+  overflow-x: hidden;
+
+
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 15px 60px 15px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.6)
+  
+}
+
+.calculate-btn {
+  width: 50%;
+  padding: 12px;
+
+}
+
+.bmiform {
+  padding-top: 20px;
+  
+}
+
+.bmiformhead {
+  width: 36%;
+}
+
+.bmiformhead > h1, p {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+
 
 
 /* Button remove on larger device */
@@ -562,4 +660,47 @@ ul {
     
   }
   
-}
+  /* bmi calculator section */
+    .bmichart {
+      width: 100%;
+      padding: 20px;
+      padding-top: 20px;
+      
+    }
+  
+    .bmitable th,
+    .bmitable td {
+      padding: 8px 10px;
+      text-align: left;
+      font-size: 14px; 
+    }
+  
+    .bmicalculator {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .form-row {
+      gap: 5px;
+    }
+  
+    .form-input {
+      width: 100%;
+      margin-left: 0;
+      padding: 10px;
+    }
+  
+    .calculate-btn {
+      width: 100%;
+      padding: 12px;
+    }
+  
+    .bmiform {
+      padding-top: 20px;
+    }
+
+    .bmiformhead {
+      width: 100%;
+    }
+  }
+
