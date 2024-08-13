@@ -530,15 +530,16 @@ bmi form */
   .hamburger-button {
     display: none;
   }
+  .teamonlymobile {
+    display: none;
+  }
+  
 }
 
 /* responsive styles medium devices*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .nav-items {
     display: none;
-  }
-  div {
-    border: 2px solid red;
   }
   .hamburger-button {
     display: none;
@@ -779,6 +780,9 @@ bmi form */
 
 
     /* Team section */
+      .teamonlymobile {
+       display: block;
+      }
       .teamimgsection {
         display: none;
       }
