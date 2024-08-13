@@ -512,6 +512,9 @@ bmi form */
 
 }
 
+/* footer styles */
+
+
 
 
 
@@ -786,12 +789,13 @@ bmi form */
 
 
     /* Team section */
-      .teamonlymobile {
-       display: block;
-      }
+     
       .teamimgsection {
         display: none;
       }
+      .teamonlymobile {
+        display: block;
+       }
       .teamonlymobile {
         background-color: black;
         padding-bottom: 5vh;
@@ -804,15 +808,15 @@ bmi form */
 
       .teamimgm {
        background-color:rgba(255, 255, 255, 0.1)	;      ;
-       height: 188.5vh;
+       max-height: 100%;
        width: 353px;
        position: relative;
        left: 4.4vh;
        border-radius: 2vh;
-       
 
       
   }
+
 
  
  
