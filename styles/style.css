@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -8,6 +9,7 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Great+Vibes&display=swap");
+
 .cursive-font {
   font-family: "Cedarville Cursive", cursive;
   font-weight: 400;
@@ -19,6 +21,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   overflow-x: hidden;
 }
@@ -26,19 +29,24 @@ body {
 html {
   overflow-x: hidden;
 }
+
 /* Shared Styles */
 .primary-color {
   color: #e6533c;
 }
+
 .secondary-color {
   color: #ffffff;
 }
+
 .description-color {
   color: rgba(255, 255, 255, 0.5);
 }
+
 .placeholder-color {
   color: rgba(255, 255, 255, 0.6);
 }
+
 .display-flex {
   display: flex;
 }
@@ -133,12 +141,14 @@ html {
   font-weight: 700;
   padding-bottom: 52px;
 }
+
 .bmitittlefont {
   font-size: 18px;
   color: white;
   font-family: "Inter", sans-serif;
   font-weight: 300;
 }
+
 .bmichartfont {
   font-size: 14px;
   color: #ffffff;
@@ -146,6 +156,7 @@ html {
   font-style: normal;
   font-weight: 200;
 }
+
 /* BG Styles */
 .bg-dark {
   background: radial-gradient(circle at center, #333333 0%, #111111 80%);
@@ -170,6 +181,7 @@ html {
   padding-top: 88px;
   padding-bottom: 5vh;
 }
+
 .teamimgsection {
   background-color: rgba(255, 255, 255, 0.1);
   height: 604px;
@@ -206,7 +218,7 @@ nav ul {
   gap: 47px;
 }
 
-nav li > a {
+nav li>a {
   text-decoration: none;
 }
 
@@ -234,7 +246,7 @@ ul {
   cursor: pointer;
 }
 
-nav > h3,
+nav>h3,
 ul {
   margin-top: 58.5px;
   margin-left: 190px;
@@ -398,6 +410,7 @@ ul {
   text-align: left;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 /* 
 bmi form */
 
@@ -440,7 +453,7 @@ bmi form */
   width: 36%;
 }
 
-.bmiformhead > h1,
+.bmiformhead>h1,
 p {
   padding-left: 10px;
   padding-top: 20px;
@@ -500,6 +513,7 @@ p {
   text-align: center;
   width: 90%;
 }
+
 /* 
 reviews section */
 .reviewimg {
@@ -521,7 +535,7 @@ reviews section */
   padding-top: 66px;
 }
 
-.footertittle > h1 {
+.footertittle>h1 {
   padding-left: 6px;
 }
 
@@ -578,6 +592,7 @@ reviews section */
 
 /* Button remove on larger device */
 @media screen and (max-width: 1920px) {
+
   .join-btn2,
   .download-btn2,
   .responsive-bg,
@@ -589,14 +604,17 @@ reviews section */
     display: none;
   }
 }
+
 /* responsive styles medium devices*/
 @media screen and (max-width: 993px) {
   .nav-items {
     display: none;
   }
+
   .hamburger-button {
     display: none;
   }
+
   .teamonlymobile {
     display: none;
   }
@@ -607,6 +625,7 @@ reviews section */
   .nav-items {
     display: none;
   }
+
   .hamburger-button {
     display: none;
   }
@@ -619,7 +638,7 @@ reviews section */
     margin: 0;
   }
 
-  .navbar > ul {
+  .navbar>ul {
     display: none;
   }
 
@@ -638,33 +657,41 @@ reviews section */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
   .join-btn2 {
     height: 50px;
     width: 150px;
   }
+
   .download-btn {
     display: none;
   }
+
   .download-btn2 {
     height: 50px;
     width: 150px;
     margin-top: 0;
     margin-right: 50px;
   }
+
   .banner-tittle-font,
   .cursive {
     font-size: 36px;
   }
-  .banner-content > p > br {
+
+  .banner-content>p>br {
     display: none;
   }
+
   .name-font {
     font-size: 36px;
   }
+
   .banner-paragraph {
     width: 100%;
     height: auto;
   }
+
   .join-btn2,
   .download-btn2,
   .responsive-bg {
@@ -685,6 +712,7 @@ reviews section */
     width: 100%;
     padding: 0 15px;
   }
+
   .nav-tittle {
     margin-left: 0;
     font-size: 30px;
@@ -710,14 +738,17 @@ reviews section */
   .banner-btn-container {
     padding-left: 15px;
   }
+
   .primary-btn-font,
   .secondary-btn-font,
   .description-font {
     font-size: 18px;
   }
+
   .banner-paragraph {
     max-width: 81%;
   }
+
   .banner-tittle {
     padding-top: 3.188rem;
   }
@@ -793,6 +824,7 @@ reviews section */
   .ctabtnm {
     width: 287px;
   }
+
   .ctades {
     width: 90%;
     text-align: flex;
@@ -846,13 +878,16 @@ reviews section */
   .teamimgsection {
     display: none;
   }
+
   .teamonlymobile {
     display: block;
   }
+
   .teamonlymobile {
     background-color: black;
     padding-bottom: 5vh;
   }
+
   .trainer {
     left: 1.3vh;
     top: 1.5vh;
@@ -889,7 +924,7 @@ reviews section */
     padding-top: 20px;
   }
 
-  .footertittle > h1 {
+  .footertittle>h1 {
     padding-left: 1vh;
   }
 
