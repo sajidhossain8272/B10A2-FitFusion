@@ -636,10 +636,6 @@ bmi form */
   .banner-content {
     margin: 0;
   }
-   {
-    overflow-x: hidden;
-  
-  }
 
   .navbar > ul {
     display: none;
