@@ -18,7 +18,6 @@
 * {
   padding: 0;
   margin: 0;
-
 }
 body {
   overflow-x: hidden;
@@ -134,12 +133,11 @@ html {
   font-weight: 700;
   padding-bottom: 52px;
 }
-.bmitittlefont{
+.bmitittlefont {
   font-size: 18px;
   color: white;
   font-family: "Inter", sans-serif;
   font-weight: 300;
-  
 }
 .bmichartfont {
   font-size: 14px;
@@ -171,7 +169,6 @@ html {
   background-color: black;
   padding-top: 88px;
   padding-bottom: 5vh;
-  
 }
 .teamimgsection {
   background-color: rgba(255, 255, 255, 0.1);
@@ -185,12 +182,16 @@ html {
 .teamonlymobile {
   background-color: black;
   padding-bottom: 5vh;
-
 }
 
-
-
-
+.teamfont {
+  font-size: 48px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
 
 /* nav styles */
 nav {
@@ -275,7 +276,7 @@ ul {
   width: max-content;
   margin: auto;
   background-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 15px;
   padding: 20px 30px;
@@ -289,7 +290,7 @@ ul {
   width: max-content;
   margin: auto;
   background-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 15px;
   padding: 20px 30px;
@@ -300,10 +301,7 @@ ul {
   position: relative;
   left: 40vh;
   top: -10vh;
-
-  
 }
-
 
 .redcircle {
   background-color: #e6533c;
@@ -312,8 +310,6 @@ ul {
   border-radius: 40px;
   margin-top: 10px;
   margin-right: 10px;
-
-  
 }
 
 .card1tittle {
@@ -326,7 +322,6 @@ ul {
   line-height: 120%;
   color: #ffffff;
   margin: 0;
-
 }
 
 .card1description {
@@ -340,17 +335,15 @@ ul {
   letter-spacing: 0.5px;
   color: rgba(255, 255, 255, 0.65);
   margin: 0;
-
 }
 
 /* Habits Section */
 .habitstittle {
   text-align: center;
   padding-top: 100px;
-
 }
 
-.habitfont{
+.habitfont {
   font-size: 48px;
 }
 
@@ -376,7 +369,6 @@ ul {
   display: flex;
   position: relative;
   left: 20vh;
-
 }
 
 .ctaimg {
@@ -385,7 +377,6 @@ ul {
   position: relative;
   top: 5vh;
   left: 50vh;
-    
 }
 
 .ctatextcontainer {
@@ -393,22 +384,19 @@ ul {
   padding-left: 9vh;
 }
 
-
 /* BMI Calculator section */
 .bmichart {
   padding-top: 52px;
   padding-left: 187px;
   width: 45%;
   border-collapse: collapse;
-
 }
-
 
 .bmitable th,
 .bmitable td {
   padding: 10px 25px;
   text-align: left;
-  border: 1px solid rgba(255, 255, 255, 0.1); /* Thicker border for Excel-like appearance */
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 /* 
 bmi form */
@@ -420,8 +408,6 @@ bmi form */
   padding: 20px 0;
   background-color: rgba(34, 34, 34, 1);
   overflow-x: hidden;
-
-
 }
 
 .form-row {
@@ -438,26 +424,24 @@ bmi form */
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   margin-left: 10px;
-  color: rgba(255, 255, 255, 0.6)
-  
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .calculate-btn {
   width: 50%;
   padding: 12px;
-
 }
 
 .bmiform {
   padding-top: 20px;
-  
 }
 
 .bmiformhead {
   width: 36%;
 }
 
-.bmiformhead > h1, p {
+.bmiformhead > h1,
+p {
   padding-left: 10px;
   padding-top: 20px;
 }
@@ -466,7 +450,6 @@ bmi form */
 .teamtextcontainer {
   text-align: center;
   padding-bottom: 58px;
-
 }
 
 .teamimgsection {
@@ -492,7 +475,7 @@ bmi form */
 
 .trainer-name {
   position: absolute;
-  bottom: 40px; 
+  bottom: 40px;
   left: 30%;
   transform: translateX(-50%);
   color: white;
@@ -501,12 +484,12 @@ bmi form */
   padding: 5px 10px;
   border-radius: 5px;
   text-align: center;
-  width: 90%; 
+  width: 90%;
 }
 
 .trainer-designation {
   position: absolute;
-  bottom: 20px; 
+  bottom: 20px;
   left: 25%;
   transform: translateX(-50%);
   color: rgba(255, 255, 255, 0.5);
@@ -515,13 +498,25 @@ bmi form */
   padding: 5px 10px;
   border-radius: 5px;
   text-align: center;
-  width: 90%; 
+  width: 90%;
+}
+/* 
+reviews section */
+.reviewimg {
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+}
 
+.reviewd {
+  font-weight: 300;
+  color: white;
+  opacity: 50%;
 }
 
 /* footer styles */
 .footertextcontainer {
-  background-color: #222222;;
+  background-color: #222222;
   padding-left: 190px;
   padding-top: 66px;
 }
@@ -553,7 +548,6 @@ bmi form */
   padding-right: 20px;
 }
 
-
 .footer-bottom p {
   font-size: 20px;
   margin: 0;
@@ -564,10 +558,7 @@ bmi form */
   justify-content: center;
   max-width: 99%;
   margin: 0 auto;
-
-
 }
-
 
 .footer-bottom {
   text-align: center;
@@ -575,21 +566,15 @@ bmi form */
 
 .footer-line {
   border: 0;
-  height: 1px; 
+  height: 1px;
   width: 90%;
   background-color: #666666;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .footer-links ul {
   padding: 15px;
 }
-
-
-
-
-
-
 
 /* Button remove on larger device */
 @media screen and (max-width: 1920px) {
@@ -615,7 +600,6 @@ bmi form */
   .teamonlymobile {
     display: none;
   }
-  
 }
 
 /* responsive styles medium devices*/
@@ -626,13 +610,11 @@ bmi form */
   .hamburger-button {
     display: none;
   }
-  
 }
 
 /* responsive styles small devices*/
 
 @media screen and (max-width: 576px) {
-  
   .banner-content {
     margin: 0;
   }
@@ -751,18 +733,16 @@ bmi form */
     top: 34vh;
     left: -7vh;
     padding: 15px;
-
   }
 
   .cardcontainer {
-    margin-top: -10vh;  
+    margin-top: -10vh;
   }
 
   /* Habit section */
   .habitdescription {
     width: 75%;
     margin-left: 3.125rem;
-    
   }
 
   .fourhabit {
@@ -791,12 +771,12 @@ bmi form */
     position: relative;
     top: 0;
     left: 0;
-    margin-top: 1,25rem;
+    margin-top: 1, 25rem;
   }
 
   .ctatextcontainer {
     padding: 20px;
-    padding-top: 1,25rem;
+    padding-top: 1, 25rem;
     text-align: start;
   }
 
@@ -809,7 +789,7 @@ bmi form */
     font-size: 14px;
     line-height: 1.5;
   }
-  
+
   .ctabtnm {
     width: 287px;
   }
@@ -817,90 +797,91 @@ bmi form */
     width: 90%;
     text-align: flex;
     margin-left: 0rem;
-    
   }
-  
+
   /* bmi calculator section */
-    .bmichart {
-      width: 100%;
-      padding: 20px;
-      padding-top: 20px;
-      
-    }
-  
-    .bmitable th,
-    .bmitable td {
-      padding: 8px 10px;
-      text-align: left;
-      font-size: 14px; 
-    }
-  
-    .bmicalculator {
-      flex-direction: column;
-      padding: 10px;
-    }
-  
-    .form-row {
-      gap: 5px;
-    }
-  
-    .form-input {
-      width: 100%;
-      margin-left: 0;
-      padding: 10px;
-    }
-  
-    .calculate-btn {
-      width: 100%;
-      padding: 12px;
-    }
-  
-    .bmiform {
-      padding-top: 20px;
-    }
+  .bmichart {
+    width: 100%;
+    padding: 20px;
+    padding-top: 20px;
+  }
 
-    .bmiformhead {
-      width: 100%;
-    }
+  .bmitable th,
+  .bmitable td {
+    padding: 8px 10px;
+    text-align: left;
+    font-size: 14px;
+  }
 
+  .bmicalculator {
+    flex-direction: column;
+    padding: 10px;
+  }
 
-    /* Team section */
-    
-      .teamimgsection {
-        display: none;
-      }
-      .teamonlymobile {
-        display: block;
-       }
-      .teamonlymobile {
-        background-color: black;
-        padding-bottom: 5vh;
+  .form-row {
+    gap: 5px;
+  }
 
-      }
-      .trainer {
-        left: 1.3vh;
-        top: 1.5vh;
-      }
+  .form-input {
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
+  }
 
-      .teamimgm {
-       background-color:rgba(255, 255, 255, 0.1)	;      ;
-       max-height: 100%;
-       width: 353px;
-       position: relative;
-       left: 4.4vh;
-       border-radius: 2vh;
+  .calculate-btn {
+    width: 100%;
+    padding: 12px;
+  }
 
-      
+  .bmiform {
+    padding-top: 20px;
+  }
+
+  .bmiformhead {
+    width: 100%;
+  }
+
+  /* Team section */
+
+  .teamimgsection {
+    display: none;
+  }
+  .teamonlymobile {
+    display: block;
+  }
+  .teamonlymobile {
+    background-color: black;
+    padding-bottom: 5vh;
+  }
+  .trainer {
+    left: 1.3vh;
+    top: 1.5vh;
+  }
+
+  .teamimgm {
+    background-color: rgba(255, 255, 255, 0.1);
+    max-height: 100%;
+    width: 353px;
+    position: relative;
+    left: 4.4vh;
+    border-radius: 2vh;
+  }
+
+  .teamfont {
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
   }
 
   /* footer section */
   .fcontainer {
     flex-direction: column;
-    align-items: flex-start;  
-    text-align: left;        
+    align-items: flex-start;
+    text-align: left;
     padding-left: 0;
-    
-              
   }
 
   .footertextcontainer {
@@ -921,10 +902,10 @@ bmi form */
     padding-right: 0;
     margin-top: 20px;
   }
-  
+
   .footer-links ul {
-    padding-left: 0;  
-    margin-left: 0;   
+    padding-left: 0;
+    margin-left: 0;
     padding: 20px;
     margin-top: 2px;
   }
@@ -941,4 +922,16 @@ bmi form */
     width: 98%;
   }
 
+  .footerdfont {
+    font-size: 14px;
+  }
+
+  .lifont {
+    font-size: 23px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+  }
 }
