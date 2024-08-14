@@ -928,7 +928,12 @@ reviews section */
 
   .cameron {
       position: absolute;
-      left: 43%;
+      left: 45%;
+  }
+
+  .darell {
+    position: absolute;
+    left: 35%;
   }
 
   /* footer section */
