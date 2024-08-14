@@ -499,11 +499,7 @@ p {
   text-align: center;
   width: 90%;
 }
-.cameron {
-  position: absolute;
-  left: 40%;
 
-}
 
 
 .trainer-designation {
@@ -924,9 +920,15 @@ reviews section */
     margin: 0 auto;
     position: relative;
     max-height: auto;
-    padding: 1.5vh;
+    padding: 2.5vh;
+    right: 1vh;
     border-radius: 4vh;
 
+  }
+
+  .cameron {
+      position: absolute;
+      left: 43%;
   }
 
   /* footer section */
