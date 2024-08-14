@@ -18,6 +18,10 @@
 * {
   padding: 0;
   margin: 0;
+
+}
+body {
+  overflow-x: hidden;
 }
 
 html {
@@ -167,6 +171,7 @@ html {
   background-color: black;
   padding-top: 88px;
   padding-bottom: 5vh;
+  
 }
 .teamimgsection {
   background-color: rgba(255, 255, 255, 0.1);
@@ -461,6 +466,7 @@ bmi form */
 .teamtextcontainer {
   text-align: center;
   padding-bottom: 58px;
+
 }
 
 .teamimgsection {
@@ -620,12 +626,19 @@ bmi form */
   .hamburger-button {
     display: none;
   }
+  
 }
 
 /* responsive styles small devices*/
+
 @media screen and (max-width: 576px) {
+  
   .banner-content {
     margin: 0;
+  }
+   {
+    overflow-x: hidden;
+  
   }
 
   .navbar > ul {
@@ -856,7 +869,7 @@ bmi form */
 
 
     /* Team section */
-     
+    
       .teamimgsection {
         display: none;
       }
@@ -887,9 +900,11 @@ bmi form */
   /* footer section */
   .fcontainer {
     flex-direction: column;
-    align-items: flex-start;  /* Aligns items to the start (left) */
-    text-align: left;         /* Ensures text is left-aligned */
-    padding-left: 0;          /* Ensure content is aligned to the left */
+    align-items: flex-start;  
+    text-align: left;        
+    padding-left: 0;
+    
+              
   }
 
   .footertextcontainer {
