@@ -568,12 +568,15 @@ bmi form */
 }
 
 .footer-line {
-  background-color: red;
   border: 0;
   height: 1px; 
   width: 90%;
   background-color: #666666;
   margin-bottom: 10px; 
+}
+
+.footer-links ul {
+  padding: 15px;
 }
 
 
