@@ -184,11 +184,11 @@ html {
 
 .teamimgsection {
   background-color: rgba(255, 255, 255, 0.1);
-  height: 604px;
-  width: 1080px;
+  max-width: 56%;
   position: relative;
-  left: 50vh;
+  padding-bottom: 2vh;
   border-radius: 2vh;
+  left: 44vh;
 }
 
 .teamonlymobile {
@@ -376,7 +376,7 @@ ul {
 .ctacontainer {
   background-color: #333333;
   height: 371px;
-  width: 80%;
+  max-width: 80%;
   border-radius: 15px;
   display: flex;
   position: relative;
@@ -895,11 +895,13 @@ reviews section */
 
   .teamimgm {
     background-color: rgba(255, 255, 255, 0.1);
-    max-height: 100%;
-    width: 353px;
+    max-height: auto;
+    margin: 0 au;
+    max-width: 83%;
     position: relative;
     left: 4.4vh;
     border-radius: 2vh;
+    padding-bottom: 3vh;
   }
 
   .teamfont {
@@ -909,6 +911,19 @@ reviews section */
     font-weight: 800;
     font-style: normal;
     font-variation-settings: "slnt" 0;
+  }
+
+  .teamonlymobile img {
+    max-width: 85%;
+    margin: 0 auto;
+    position: relative;
+    max-height: auto;
+    right: 1vh;
+    padding: 15px;
+    border-radius: 4vh;
+
+    
+    
   }
 
   /* footer section */
