@@ -921,7 +921,7 @@ reviews section */
     position: relative;
     max-height: auto;
     padding: 2.5vh;
-    right: 1vh;
+    right: -1vh;
     border-radius: 4vh;
 
   }
