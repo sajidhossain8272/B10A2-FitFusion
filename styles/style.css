@@ -479,8 +479,8 @@ p {
 }
 
 .trainer img {
-  height: 272px;
-  width: 326.67px;
+  height: 27.2vh;
+  width: 32.667vh;
   border-radius: 2vh;
   padding: 2px;
   display: block;
@@ -489,7 +489,7 @@ p {
 .trainer-name {
   position: absolute;
   bottom: 40px;
-  left: 30%;
+  left: 33%;
   transform: translateX(-50%);
   color: white;
   font-size: 18px;
@@ -499,6 +499,8 @@ p {
   text-align: center;
   width: 90%;
 }
+
+
 
 .trainer-designation {
   position: absolute;
@@ -919,7 +921,7 @@ reviews section */
     position: relative;
     max-height: auto;
     right: 1vh;
-    padding: 15px;
+    padding: 2.5vh;
     border-radius: 4vh;
 
     
@@ -983,5 +985,10 @@ reviews section */
     font-weight: 400;
     font-style: normal;
     font-variation-settings: "slnt" 0;
+    line-height: 3rem;
+
+  }
+  .copyright {
+    font-size: 1.25rem;
   }
 }
